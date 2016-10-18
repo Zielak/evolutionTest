@@ -37,6 +37,8 @@
   Render.run(render);
 
 
+  window.rngine = engine;
+  window.render = render;
 
 })(window.Matter);
 
